@@ -1,3 +1,28 @@
 body {
 background-image:linear-gradient(to right,black, white);
 }
+.full-circle {
+    background-color:#c06;
+    height:150px;
+    width:150px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+}
+
+.circle-border {
+    background-color:#c06;
+    border: 3px solid #000;
+    height:150px;
+    width:150px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+}
+
+.transparent-circle {
+    background-color: rgba(204, 0, 102, 0);
+    border: 3px solid #867AC3;
+    height:300px;
+    width:300px;
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+}
